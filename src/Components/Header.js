@@ -31,6 +31,11 @@ export default function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
+              <NavLink className="hover-effect badge-pill p-3" href="/">
+                Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink className="hover-effect badge-pill p-3" href="/about">
                 Who we are
               </NavLink>

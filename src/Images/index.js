@@ -6,15 +6,9 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
 
 const items = [
-  {
-    src: img1,
-    altText: "",
-    caption: "",
-  },
   {
     src: img2,
     altText: "",

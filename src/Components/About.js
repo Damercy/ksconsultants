@@ -5,9 +5,9 @@ export default function About() {
     <div className="mt-5 text-center p-5 back">
       <h1 className="text-success font-weight-bold">K S CONSULTANT</h1>
       <h5 className="text-muted">
-        Available 24x7 & Committed for quality service{" "}
+        Expert team, Dedicated service & Easy availability
       </h5>
-      <div className="border-left border-right border-bottom mt-4 text-center">
+      <div className="border-left border-right border-bottom mt-5 text-center">
         <h1 className=" mb-4 bg-success text-white border p-2 shadow">
           VISION
         </h1>
