@@ -1,2 +1,2 @@
 root domain bucket - http://ksconsultants.in.s3-website.ap-south-1.amazonaws.com/
-sub-domain bucket - 
+sub-domain bucket -
