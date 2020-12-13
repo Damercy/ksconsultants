@@ -21,6 +21,7 @@ function App() {
           <Route path="/services" component={Services} />
           <Route path="/" exact component={Body} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

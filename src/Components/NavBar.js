@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import SliderMenu from "./SliderMenu/Menu";
 
 export default function NavBar() {
+  const [showMenu, setshowMenu] = useState(false);
   return (
     <header className="bg-gray-100 shadow-lg fixed z-40 w-full">
       <nav className="flex flex-row">
@@ -14,8 +16,23 @@ export default function NavBar() {
         </div>
         <div className="p-5">
           <div className="flex my-2 sm:hidden ">
-            <i class="fas fa-bars"></i>
+            {showMenu ? (
+              <i
+                className="fas fa-angle-up ml-24"
+                onClick={() => setshowMenu(false)}
+              />
+            ) : (
+              <i
+                className="fas fa-angle-down"
+                onClick={() => setshowMenu(true)}
+              ></i>
+            )}
           </div>
+          {showMenu ? (
+            <SliderMenu isHidden={"block"} />
+          ) : (
+            <SliderMenu isHidden={"hidden"} />
+          )}
           <ul className="flex-row space-x-8 my-1 text-gray-500 hidden sm:flex">
             <NavLink to="/" style={{ textDecoration: "none" }}>
               <li className="hover:text-gray-700">Home</li>
