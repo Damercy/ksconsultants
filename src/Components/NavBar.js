@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <header className="bg-gray-100 shadow-lg">
+    <header className="bg-gray-100 shadow-lg fixed z-40 w-full">
       <nav className="flex flex-row">
-        <div className="p-5 flex-1 text-2xl">
+        <div className="p-5 flex-1 text-2xl ">
           <NavLink to="/" style={{ textDecoration: "none" }}>
             <h1 className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
               K S Consultant
