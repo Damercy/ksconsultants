@@ -2,8 +2,8 @@ import React from "react";
 import Hero from "../Components/Hero";
 import Cards from "../Components/Card/Cards";
 import Intro from "../Components/Intro";
-import ServicesIntro from "../Components/ServicesIntro"
-import ImageSlider from "../Images";
+import ServicesIntro from "../Components/Services/ServicesIntro"
+import ExpertsIntro from "../Components/Experts/ExpertsIntro"
 
 export default function Body() {
   return (
@@ -12,6 +12,7 @@ export default function Body() {
       <Cards />
       <Intro />
       <ServicesIntro/>
+      <ExpertsIntro/>
     </div>
   );
 }

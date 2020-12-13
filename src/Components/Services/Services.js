@@ -9,6 +9,25 @@ const services = [
   "Road safety.",
   "Safety Induction Training for new entrant.",
   "Fire safety & fire prevention.",
+  "Emergency Response Management & Mock drill.",
+  "Legal requirements in safety.",
+  "Hazard identification & risk assessment.",
+  "Process safety management.",
+  "General safety appreciation for Workers.",
+  "Motivating employees.",
+  "General Safety appreciation for Officers.",
+  "Safety Philosophy & Performance Measurement.",
+  "Gas safety.",
+  "Job Safety Analysis,Capturing near Misses & Tool box talk",
+  "Machine guarding, hand tools & portable power tools safety.",
+  "Personal Protective Equipment.",
+  "First Aid & CPR with practical demonstration.",
+  "Housekeeping , Waste Management & 5 S",
+  "Management of COVID-19 Safety measures & SOP at work places.",
+  "Effective communication.",
+  "Accident causation Model & prevention strategy.",
+  "Chemical safety including handling of hazardous chemicals",
+  "Protecting employees from heat stress & heat acclimatization training."
 ];
 
 export default services;

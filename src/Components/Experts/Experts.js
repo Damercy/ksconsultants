@@ -1,0 +1,17 @@
+const experts = [
+  "Asish Baron Adhikari",
+  "NAZRUL ISLAM",
+  "DR. SUBRATA MANDAL",
+  "ASHOK CHATTERJEE",
+  "GOUTAM MAZUMDAR",
+  "AMALENDU MAHANTIE",
+  "ANJAN BANDYOPADHYAY",
+  "SAJAL BASU",
+  "SANTANU DEY",
+  "AMBUJ SINHA",
+  "SANTANU KUMAR SAHA",
+  "UTPAL BHATTACHARYYA",
+  "GOLAM MOWLA",
+];
+
+export default experts;

@@ -1,5 +1,6 @@
 import React from "react";
-import ServicesList from "./Services/ServicesList";
+import services from "./Services";
+import ServicesList from "./ServicesList";
 
 export default function ServicesIntro() {
   return (
@@ -20,10 +21,13 @@ export default function ServicesIntro() {
         act. These novel ideas are what help us provide the following quality
         services to your organization:
       </article>
-      <div className="grid grid-cols-1 gap-y-12 sm:gap-y-0 sm:grid-cols-3 gap-4 mt-10 sm:mt-0">
-        <ServicesList margin={"sm:mt-20"} />
-        <ServicesList margin={"sm:mt-10"} />
-        <ServicesList margin={"sm:mt-0"} />
+      <div className="grid grid-cols-1 gap-x-14 gap-y-12 sm:gap-y-0 sm:grid-cols-3 gap-4 mt-10 sm:mt-0 cursor-default">
+        <ServicesList margin={"sm:mt-20"} services={services.slice(0, 11)} />
+        <ServicesList margin={"sm:mt-12"} services={services.slice(11, 21)} />
+        <ServicesList
+          margin={"sm:mt-3"}
+          services={services.slice(21, services.length)}
+        />
       </div>
       <div className="text-center mt-10 sm:mt-0">
         <button className="transform -skew-y-6 p-5 bg-gradient-to-r from-green-400 to-blue-500  rounded-full hover:bg-gradient-to-r hover:from-green-700 hover:to-blue-700 text-white uppercase focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50 transition duration-200 ease-in-out hover:scale-110">

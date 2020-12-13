@@ -13,20 +13,8 @@ export default function NavBar() {
           </NavLink>
         </div>
         <div className="p-5">
-          <div className="flex my-1 sm:hidden ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="currentColor"
-              className="bi bi-filter-right"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"
-              />
-            </svg>
+          <div className="flex my-2 sm:hidden ">
+            <i class="fas fa-bars"></i>
           </div>
           <ul className="flex-row space-x-8 my-1 text-gray-500 hidden sm:flex">
             <NavLink to="/" style={{ textDecoration: "none" }}>

@@ -4,7 +4,7 @@ export default function Hero() {
   const imageLink =
     "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
   return (
-    <section>
+    <section className="pt-5 sm:pt-16">
       <div
         class="bg-cover bg-center bg-no-repeat h-96 bg-opacity-100"
         style={{
