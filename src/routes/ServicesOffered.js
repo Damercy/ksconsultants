@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
-import { ListGroup, ListGroupItem, UncontrolledCollapse, TabPane, Row, Col, TabContent, NavLink, Nav, NavItem } from 'reactstrap';
-import classnames from 'classnames';
+import React from 'react';
+import { ListGroup, ListGroupItem, UncontrolledCollapse} from 'reactstrap';
 
 export default function ServicesOffered() {
-    const [activeTab, setActiveTab] = useState('1');
-    const toggle = tab => {
-        if (activeTab !== tab) setActiveTab(tab);
-    }
     return (
         <div className="container-fluid mt-5 p-5 back">
             <div className="text-center">
@@ -294,7 +289,7 @@ export default function ServicesOffered() {
                     </ListGroupItem>
                 </ListGroup>
                 <article className="mt-5">
-                    <p className="lead">We provide many more services that is tailor made for your organization. In case of a specific service that you may be looking for, feel free to <a href="http://ksconsultants.in/contact" target="_blank">contact us.</a></p>
+                    <p className="lead">We provide many more services that is tailor made for your organization. In case of a specific service that you may be looking for, feel free to <a href="http://ksconsultants.in/contact" target="_blank" rel="noreferrer noopener">contact us.</a></p>
                 </article>
             </div>
         </div>
