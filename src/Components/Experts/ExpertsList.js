@@ -6,12 +6,12 @@ export default function ExpertsList({ expert }) {
       <div>
         <img
           className="w-full h-48 rounded-tr-xl rounded-tl-xl object-cover"
-          src="https://style.anu.edu.au/_anu/4/images/placeholders/person.png"
+          src={expert.picture}
           alt="expert"
         />
       </div>
       <div className="p-2 text-center text-white text-xl uppercase">
-        {expert}
+        {expert.name}
       </div>
     </div>
   );

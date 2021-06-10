@@ -17,7 +17,7 @@ export default function About() {
               MISSION
             </h6>
             <p class="text-xl  text-center text-justify">
-              Provide dedicated services (to the client organizations) to create
+              Provide dedicated services to the client organizations to create
               trained and competent employees and establish self-sustaining
               systems for preventing industrial accidents, fire & occupational
               diseases.
@@ -32,7 +32,7 @@ export default function About() {
             <p class="text-xl  text-center text-justify">
               To become a leading consultant in India for delivering services to
               industries with a view to achieve accident-free production, build
-              safety-conscious employees & create a culture of safety.
+              safety-conscious employees & a culture of safety.
             </p>
           </div>
         </div>
