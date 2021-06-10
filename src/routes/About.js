@@ -10,7 +10,20 @@ export default function About() {
         subHeaderText="Available 24x7 &  Committed for quality service"
         gradient={true}
       />
-      <Card text={"Test lmdlmasdmsald"} />
+      <div className="flex">
+        <div className="flex-auto m-5 h-60 z-30 bg-gray-300 rounded-xl p-10 shadow-2xl">
+          <div>
+            <h6 className="text-center text-2xl font-bold tracking-wide">MISSION</h6>
+            <p class="text-xl p-5 text-gray-600">mission text</p>
+          </div>
+        </div>
+        <div className="flex-auto m-5 h-60 z-30 bg-gray-300 rounded-xl p-10 shadow-2xl">
+          <div>
+            <h6>VISION</h6>
+            <p class="text-xl p-5 text-gray-600"> vision text</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
