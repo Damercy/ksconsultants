@@ -10,17 +10,30 @@ export default function About() {
         subHeaderText="Available 24x7 &  Committed for quality service"
         gradient={true}
       />
-      <div className="flex">
-        <div className="flex-auto m-5 h-60 z-30 bg-gray-300 rounded-xl p-10 shadow-2xl">
+      <div className="md:flex">
+        <div className="flex-auto p-5 m-5 z-30 bg-gray-300 rounded-xl p-10 shadow-2xl">
           <div>
-            <h6 className="text-center text-2xl font-bold tracking-wide">MISSION</h6>
-            <p class="text-xl p-5 text-gray-600">mission text</p>
+            <h6 className="text-center text-2xl font-bold tracking-wide text-green-500">
+              MISSION
+            </h6>
+            <p class="text-xl  text-center text-justify">
+              Provide dedicated services (to the client organizations) to create
+              trained and competent employees and establish self-sustaining
+              systems for preventing industrial accidents, fire & occupational
+              diseases.
+            </p>
           </div>
         </div>
-        <div className="flex-auto m-5 h-60 z-30 bg-gray-300 rounded-xl p-10 shadow-2xl">
+        <div className="flex-auto p-5 m-5  z-30 bg-gray-300 rounded-xl p-10 shadow-2xl">
           <div>
-            <h6>VISION</h6>
-            <p class="text-xl p-5 text-gray-600"> vision text</p>
+            <h6 className="text-center text-center text-2xl font-bold tracking-wide text-green-500">
+              VISION
+            </h6>
+            <p class="text-xl  text-center text-justify">
+              To become a leading consultant in India for delivering services to
+              industries with a view to achieve accident-free production, build
+              safety-conscious employees & create a culture of safety.
+            </p>
           </div>
         </div>
       </div>
