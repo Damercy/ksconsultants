@@ -3,7 +3,7 @@ import React from 'react';
 export default function Profiles() {
     return (
         <div className="container-fluid bg-light back">
-            <div className="p-5 mt-5">
+            <div className="p-5 pt-32">
                 <h1 className="text-success text-center font-weight-bold">EXPERTS</h1>
                 <p className="lead text-justify mt-4    " style={{ fontSize: '1.1rem' }}> We boast a team of highly experienced and qualified professionals. Some  eminent personalities in the field of Safety & Occupational health are also actively associated with our organization. Rest assured, you are in safe hands.</p>
             </div>

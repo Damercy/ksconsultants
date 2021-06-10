@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Body from "./routes/Body";
+import Home from "./routes/Home";
 import Header from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import Profile from "./routes/Profiles";
@@ -19,7 +19,7 @@ function App() {
           <Route path="/profile" component={Profile} />
           <Route path="/contact" component={Contact} />
           <Route path="/services" component={Services} />
-          <Route path="/" exact component={Body} />
+          <Route path="/" exact component={Home} />
         </Switch>
         <Footer />
       </Router>

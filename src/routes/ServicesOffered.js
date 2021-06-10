@@ -3,9 +3,9 @@ import { ListGroup, ListGroupItem, UncontrolledCollapse} from 'reactstrap';
 
 export default function ServicesOffered() {
     return (
-        <div className="container-fluid mt-5 p-5 back">
+        <div className="container-fluid pt-32 p-5 back">
             <div className="text-center">
-                <h1 className="text-success pb-3 font-weight-bold">SERVICES</h1>
+                <h1 className="font-semibold bg-clip-text  text-4xl text-transparent bg-gradient-to-r from-green-400 to-blue-500">SERVICES</h1>
                 <blockquote className="text-muted" style={{fontSize:'1.5rem'}}>"People say that accidents are due to human error, which is like saying falls are due to gravity."</blockquote>
                 <article className="text-justify" ><p className="lead" style={{ fontSize: '1.1rem' }}>An incident is just the tip of the iceberg, a sign of a much larger problem below the surface. Your employees learn by examples.
                 If they don’t see you practising  good safety habits, they won’t think safety is important.

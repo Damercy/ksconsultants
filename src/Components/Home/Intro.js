@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <section className="pb-24 mt-24 sm:my-0 sm:p-32 bg-green-500 transform -skew-y-6 ">
+    <section id="about" className="pb-24 mt-24 sm:my-0 sm:p-32 bg-green-500 transform -skew-y-6 ">
       <div className="pt-96 sm:py-0">
         <h3
           className="sm:mt-0 mt-32 text-center

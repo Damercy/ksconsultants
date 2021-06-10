@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className="container-fluid text-center mt-5 p-5 back">
+        <div className="container-fluid text-center pt-32 p-5 back">
             <h1 className="text-success font-weight-bold">K S CONSULTANT</h1>
             <div>
                 <h5 className="text-muted">Available 24x7 &  Committed for quality service </h5>

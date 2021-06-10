@@ -1,8 +1,22 @@
-import React from 'react'
+import React from "react";
+import Card from "../Components/Card/Card";
+import Header from "../Components/Header/Header";
 
 export default function About() {
-    return (
-        <div className="mt-5 text-center p-5 back">
+  return (
+    <>
+      <Header
+        headerText="K S CONSULTANT"
+        subHeaderText="Available 24x7 &  Committed for quality service"
+        gradient={true}
+      />
+      <Card text={"Test lmdlmasdmsald"} />
+    </>
+  );
+}
+
+/*
+<div className="text-center pt-32 p-5 back">
             <h1 className="text-success font-weight-bold">K S CONSULTANT</h1>
             <h5 className="text-muted">Available 24x7 &  Committed for quality service </h5>
             <div className="border-left border-right border-bottom mt-4">
@@ -19,5 +33,5 @@ export default function About() {
                 <p className="text-left ml-5 lead">To  provide dedicated services (to the client organizations) to create trained and competent employees and establish self-sustaining systems for preventing industrial accidents,fire & occupational diseases.</p>
             </div>
         </div>
-    )
-}
+
+*/

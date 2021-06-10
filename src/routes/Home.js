@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from "../Components/Hero";
+import Hero from "../Components/Home/Hero";
 import Cards from "../Components/Card/Cards";
-import Intro from "../Components/Intro";
+import Intro from "../Components/Home/Intro";
 import ServicesIntro from "../Components/Services/ServicesIntro"
 import ExpertsIntro from "../Components/Experts/ExpertsIntro"
 
