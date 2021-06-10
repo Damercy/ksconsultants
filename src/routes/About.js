@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../Components/Card/Card";
 import Header from "../Components/Header/Header";
 
 export default function About() {
