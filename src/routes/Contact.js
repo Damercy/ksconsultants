@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef,useEffect } from "react";
 import Header from "../Components/Header/Header";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
@@ -6,6 +6,9 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const contactForm = useRef(null);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   function sendEmail(e) {
     toast.info("Sending details...", {

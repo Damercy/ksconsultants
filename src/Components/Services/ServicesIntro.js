@@ -5,11 +5,6 @@ import ServicesList from "./ServicesList";
 
 export default function ServicesIntro({headerText, showButton, bgColor}) {
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-
-
   return (
     <section className={`p-10 sm:p-32 ${bgColor} transform skew-y-6`}>
       <h3
