@@ -2,8 +2,8 @@ import React from "react";
 import Hero from "../Components/Home/Hero";
 import Cards from "../Components/Card/Cards";
 import Intro from "../Components/Home/Intro";
-import ServicesIntro from "../Components/Services/ServicesIntro"
-import ExpertsIntro from "../Components/Experts/ExpertsIntro"
+import ServicesIntro from "../Components/Services/ServicesIntro";
+import ExpertsIntro from "../Components/Experts/ExpertsIntro";
 
 export default function Body() {
   return (
@@ -11,8 +11,8 @@ export default function Body() {
       <Hero />
       <Cards />
       <Intro />
-      <ServicesIntro/>
-      <ExpertsIntro/>
+      <ServicesIntro headerText="OUR SERVICES" showButton={true} bgColor="bg-gray-600"/>
+      <ExpertsIntro />
     </div>
   );
 }
