@@ -11,8 +11,7 @@ import Services from "./routes/ServicesOffered";
 
 function App() {
   return (
-    <div className="App bg-gray-200">
-      <Router>
+    <div className="App bg-gray-200">      <Router>
         <Header />
         <Switch>
           <Route path="/about" component={About} />

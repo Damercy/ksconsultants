@@ -21,7 +21,7 @@ export default function Hero() {
         </h1>
         <div className="text-center">
           <a
-            href="mailto:ksconsultant1985@gmail.com?subject=Free consultation client&body=Hi."
+            href="/contact"
             className="transform transition duration-200 ease-in-out hover:scale-110 bg-gradient-to-r from-green-400 to-blue-500 p-5 float-right my-60 -mx-72 rounded-full hover:bg-gradient-to-r hover:from-green-700 hover:to-blue-700 text-white uppercase focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50"
           >
             Get a free consultation
