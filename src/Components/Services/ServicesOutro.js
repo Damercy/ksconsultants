@@ -6,7 +6,7 @@ import servicesDetailed from "./ServicesDetailed";
 export default function ServicesOutro() {
   return (
     <div class="p-10 bg-indigo-500 transform -skew-y-6 sm:p-32">
-      <div className="transform skew-y-6 grid grid-cols-3 grid-flow-row gap-4 content-center items-center	">
+      <div className="transform skew-y-6 grid grid-cols-1  sm:grid-cols-3 grid-flow-row gap-4 content-center items-center	">
         {servicesDetailed.map((detailedServices) => (
           <ServicesCard
             primaryServiceTitle={detailedServices.servicePrimary}

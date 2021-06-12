@@ -1,4 +1,4 @@
-import React, { useRef,useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import Header from "../Components/Header/Header";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
@@ -24,7 +24,6 @@ export default function Contact() {
     const formData = new FormData(e.target);
     let form = {};
     for (let [key, value] of formData.entries()) {
-      console.log(key, value);
       if (key === "phone" && value.length === 0)
         form[key] = "Did not fill phone number";
       else form[key] = value;
@@ -38,7 +37,7 @@ export default function Contact() {
         ...form,
       },
     };
-    console.log(JSON.stringify(data));
+
     axios
       .post(
         "https://api.emailjs.com/api/v1.0/email/send",

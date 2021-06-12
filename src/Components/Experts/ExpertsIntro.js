@@ -7,7 +7,6 @@ export default function ExpertsIntro() {
     <section class="p-10 bg-indigo-500 transform -skew-y-6 sm:p-32">
       <div>
         <h3
-          id="experts"
           class="text-4xl font-bold pb-10 text-right text-white transform skew-y-6"
         >
           OUR EXPERTS

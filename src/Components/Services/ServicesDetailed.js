@@ -51,8 +51,12 @@ const detailedServices = [
     ],
   },
   {
-    servicePrimary: "SAFETY AUDIT AS PER IS 14489",
-    services: [],
+    servicePrimary: "SAFETY AUDIT",
+    services: [
+      "General safety audit as per IS 14489",
+      "Electrical safety audit",
+      "Fire safety audit",
+    ],
   },
   {
     servicePrimary: "DELIVERING TOOL BOX TALK & CAPTURING NEAR MISSES",
