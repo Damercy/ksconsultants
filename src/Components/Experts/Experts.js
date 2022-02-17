@@ -1,24 +1,18 @@
+import imgAba from "../../assets/images/aba.jpg";
+import imgac from "../../assets/images/a_chatterjee.jpg";
+import imgsm from "../../assets/images/subrata_mondal.jpg";
 const experts = [
   {
-    name: "Asish Baron Adhikari",
-    picture:
-      "https://scontent-bom1-1.xx.fbcdn.net/v/t1.6435-9/136484081_1926726520802965_1486797887711470775_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=t2LJI6PSQp4AX8wt5zv&_nc_ht=scontent-bom1-1.xx&oh=88b3b312a4121ad2c3d56cc8222c71d2&oe=60E8E601",
+    name: "ASISH BARON ADHIKARI",
+    picture: imgAba,
     qualifications:
       "M Tech. (Safety & Occupational health), B E (Mech), Diploma in Safety Engg., Certified lead auditor ISO 14001 & 45001, Passed Rule 4 (d) of the West Bengal Factories (Safety Officers) Rules, 1978, Competent Person Under Section 28, 29 & 31 of Factory Act 1948, BBS Trainer, Former Dy. General Manager of Durgapur Steel Plant (SAIL)",
     description:
-      "With a total 33 years of experience, Mr. Adhikari worked as area safety officer in Coke oven & coal chemical, Blast Furnace, Power Plant, Sinter Plant, Steel Melt Shop & Rolling Mills. He is an expert safety mgmt. specialist, an auditor, & a high rated safety trainer & he is also a associated as a lecturer in DSSPE (Safety Institute).",
-  },
-  {
-    name: "NAZRUL ISLAM",
-    picture: "",
-    qualifications:
-      "M Tech. (Safety & Occupational health), B Tech(Mech), Dip in Safety Engg., Dip in Environment Magagement, Certified safety officer of W B, Certified Lead auditor OHSAS 18001/ISO 14001:2015/ISO 45001/ISO 9001:2015 & 50001.",
-    description:
-      "He is associated as Lecturer in DSSPE (Safety Institute ). Experience of working in Multinational companies as head EHS. An Expert on EHS & Legal /Statutory requirements matter.",
+      "With a total 33 years of experience, Mr. Adhikari worked as a safety officer in Coke oven & coal chemical, Blast Furnace, Power Plant, Sinter Plant, Steel Melt Shop & Rolling Mills. He is an expert safety mgmt. specialist, an auditor, a highly rated safety trainer and is also a associated as a lecturer in DSSPE (Safety Institute). Mr. Adhikari is also a certified lead auditor ISO 14001 & 45001, Passed Rule 4 (d) of the West Bengal Factories (Safety Officers) Rules,1978, Competent Person Under Section  28, 29 & 31 of Factory Act 1948",
   },
   {
     name: "DR. SUBRATA MANDAL",
-    picture: "",
+    picture: imgsm,
     qualifications:
       "PhD in Business, Administration , B E (Elect) , MBA (Marketing) , Diploma in Training & Development , Advanced Diploma in Mgmt. Research",
     description:
@@ -26,19 +20,11 @@ const experts = [
   },
   {
     name: "ASHOK CHATTERJEE",
-    picture: "",
+    picture: imgac,
     qualifications:
       "B E (Mech) , Former Chief General Manager at Durgapur Steel Plant (SAIL)",
     description:
       "With 32 years of experience, Ashoke is an excellent & reputed  Mechanical Engineer ability to solve any mechanical issues.",
-  },
-  {
-    name: "GOUTAM MAZUMDAR",
-    picture: "",
-    qualifications:
-      "B E (Elect.), Former Dy. General Manager of Durgapur Steel Plant (SAIL)",
-    description:
-      "With 31 years of experience, Goutam is an excellent innovative & dedicated electrical engineer who solved many critical breakdown efficiently . He is an intelligent & widely travelled person.",
   },
   {
     name: "AMALENDU MAHANTI",

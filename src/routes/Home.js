@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Hero from "../Components/Home/Hero";
 import Cards from "../Components/Card/Cards";
 import Intro from "../Components/Home/Intro";
@@ -7,6 +7,9 @@ import ExpertsIntro from "../Components/Experts/ExpertsIntro";
 import AdvisorsIntro from "../Components/Experts/AdvisorsIntro";
 
 export default function Body() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Hero />

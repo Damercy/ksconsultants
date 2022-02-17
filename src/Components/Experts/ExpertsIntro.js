@@ -17,7 +17,7 @@ export default function ExpertsIntro() {
           health are also actively associated with our organization. Rest
           assured, you are in safe hands.
         </article>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8  p-10 text-center  transform skew-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-8  p-10 text-center  transform skew-y-6">
           {experts.map((expert) => (
             <ExpertsList expert={expert} />
           ))}

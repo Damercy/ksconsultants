@@ -8,13 +8,6 @@ const advisors = [
       "Having more than 36 years of experience in different areas of Steel Plant, Amit served in total quality management system, head of Merchant Mill, General Manager of steel Melt Shop, General Manager & In charge of Safety Engg. department & Business Excellence. Mr. Biswas is a well known person of Steel Authority of India Limited for his dynamic leadership, deep knowledge on the subject he worked, an excellent speaker & motivator. He is having vast knowledge in Safety & Occupational health field, Behaviour Based Safety, 5S housekeeping implementations & was a regular Faculty member of training Institute at DSP & MTI, Ranchi.",
   },
   {
-    name: "DR. AMITAVA GHOSH",
-    picture: "",
-    qualification: "Ph D (Tech & HR),B E(Elect.)",
-    description:
-      "With 21 years of experience at Training deptt. Design & Drawing , Production Planning  & Electrical Maintenance & Blast Furnace & Mills area of Durgapur Steel Plant . He is truly an academician, an expert in  Management development Programme training, he is a great motivator & having  passion of Motivating people.He is also joint regional director of National Institute of Fire & Safety Engineering, Nagpur.",
-  },
-  {
     name: "R M SINGH",
     picture: "",
     qualification:
